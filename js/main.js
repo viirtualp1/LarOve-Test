@@ -46,11 +46,6 @@ const vue = new Vue({
         },
 
         checkResults: function () {
-            console.log(this.answers[0].yes);
-            console.log(this.answers[1].noButYes);
-            console.log(this.answers[2].yesButNo);
-            console.log(this.answers[3].no);
-
             if (this.answers[0].yes == 10) {
                 document.getElementById('main').innerHTML = `
                     <div class="container-fluid text-center">
